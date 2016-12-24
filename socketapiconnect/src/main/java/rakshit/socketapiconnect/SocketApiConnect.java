@@ -1,7 +1,6 @@
 package rakshit.socketapiconnect;
 
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -57,7 +56,6 @@ public class SocketApiConnect {
      * @param body  Arguments to send to the block (Map)
      * @return Map
      */
-    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     public Map call(Map body) throws IOException {
         Map<String, Object> result = new HashMap<String, Object>();
 
