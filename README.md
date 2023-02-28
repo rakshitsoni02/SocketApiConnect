@@ -5,7 +5,8 @@ The  **Socket**  SDK makes calling socket api easy.
 Usage
 ------
 
-Just add the library as module in your app.
+Just add the library as module in your app to use via socket in mobile apps.
+https://www.viasocket.com/
 
     SocketApiConnect socketApiConnect = new SocketApiConnect("YOUR_FLOW_ID", "YOUR_TEAM_AUTHKEY");
                            HashMap<String, Argument> map = new HashMap<>();
@@ -13,19 +14,4 @@ Just add the library as module in your app.
                            socketApiConnect.call(map);
 
 
-```
-    Copyright 2017 VIASOCKET.com
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-```
 
